@@ -1,0 +1,225 @@
+<!<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width,initial-scale=1.0">
+    <head>
+        <title>
+            Interview questions coding
+        </title>
+    </head>
+
+    <style>
+        body{
+            display:flex;
+            background-color:rgb(11, 11, 11);
+            color:white;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            flex-direction: column;
+            align-items: center;
+            font-size: xx-large;
+        }
+        h1{
+            display: flex;
+            margin-left: 40px;
+        }
+        .hb
+        {
+            border: 1px solid rgb(156, 153, 153);
+            height: 50px;
+            width: 750px;
+            border-radius: 9px;
+            margin-top: 70px;
+            margin-left: 250px;
+            margin-right: 100px;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        p{
+            color: rgb(227, 223, 223);
+        }
+        .tac
+        {
+            border: 2px solid rgb(87, 86, 86);
+            height: 900px;
+            width: 700px;
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left: 100px;
+            margin-right: 100px;
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            order: 2;
+        }
+        .butt{
+            padding: 20px;
+            color: rgb(227, 223, 223);
+            font-size: 25px;
+        }
+        .bt {
+            background: rgb(19, 19, 19);
+            color: rgb(227, 223, 223);
+            font-size: 25px;
+            border: none;
+        }
+        .bt:hover
+        {
+            font-size: 30px;
+        }
+        h3{
+            color:rgb(227, 223, 218);
+            font-size: 25px;
+        }
+        .content{
+            font-size: 18px;
+            margin-top: 70px;
+            margin-right: 1%;
+            margin-left:10px;
+            order: 1;
+            color:rgb(186, 182, 182);
+        }
+        .maincontainer{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .fot{
+            font-size: 15px;
+            color: rgb(186, 182, 182);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+
+<body>
+      <h1>Coding must be learnt
+        <div class="hb">
+            <h2>Start Learning - </h2><p>&nbsp;Most asked Interview Questions</p>
+        </div>
+      </h1>
+      <center><img width="800px" height="400px" src="https://images.prismic.io/turing/652ebf73fbd9a45bcec818b7_functional_programming_44edc8e7a1.webp?auto=format%2Ccompress&fit=max&w=1920"></center>
+      
+    <div class="maincontainer">
+      
+        <div class="tac">
+        
+        <div class="butt">
+            <h4>Table of Contents</h4>
+            <button type="submit" class="bt">Fibonacci Series</button><br><br>
+            <button type="submit" class="bt">Factorial of a Number</button><br><br>
+            <button type="submit" class="bt">Strong Number</button><br><br>
+            <button type="submit" class="bt">Palindrome of a Number</button><br><br>
+            <button type="submit" class="bt">Factors of a Number</button><br><br>
+            <button type="submit" class="bt">Prime Number</button><br><br>
+            <button type="submit" class="bt">Sum of Number till Single Digit</button><br><br>
+            <button type="submit" class="bt">Reverse the Number</button><br><br>
+            <button type="submit" class="bt">Hollow Square pattern</button><br><br>
+            <button type="submit" class="bt">Palindrome of a string</button><br><br>
+        </div>
+      </div>
+
+      <div class="content">
+        <h3>Fibonacci Series</h3>
+        <ul>
+            <li>Initialize Variables: Set the first two numbers of the series as 0 and 1.</li>
+            <li>Iterate: Loop through the desired range.</li>
+            <li>Update Series: Add the last two numbers to get the next number in the series.</li>
+            <li>Store & Print: Store the new number and print the series.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="fibonacci.png"></center>
+
+        <h3>Factorial of a Number</h3>
+        <ul>
+            <li>Initialize Result: Set the result as 1.</li>
+            <li>Loop: Iterate from 1 to the given number.</li>
+            <li>Multiply: Multiply the result by the current iteration number.</li>
+            <li>Print Result: After the loop, print the result.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="factorial.png"></center>
+
+        <h3>Strong Number</h3>
+        <ul>
+            <li>Initialize Sum: Set the sum of factorial of digits to 0.</li>
+            <li>Extract Digits: Loop through each digit of the number.</li>
+            <li>Calculate Factorial: Compute the factorial of each digit and add to the sum.</li>
+            <li>Compare: Compare the sum to the original number to determine if it is a strong number.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="strongnum.png"></center>
+
+        <h3>Palindrome of a Number</h3>
+        <ul>
+            <li>Initialize Reverse: Set the reverse of the number to 0.</li>
+            <li>Extract Digits: Loop through each digit of the number.</li>
+            <li>Form Reverse: Multiply the reverse by 10 and add the extracted digit.</li>
+            <li>Compare: Compare the reverse to the original number to check for a palindrome.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="palindrome .png"></center>
+
+        <h3>Factors of a Number</h3>
+        <ul>
+            <li>Initialize List: Create an empty list to store factors.</li>
+            <li>Loop: Iterate from 1 to the given number.</li>
+            <li>Check Divisibility: For each iteration, check if the number is divisible.</li>
+            <li>Store & Print: If divisible, add to the list and print all factors at the end.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="factors.png"></center>
+
+        <h3>Prime Number</h3>
+        <ul>
+            <li>Check for Edge Cases: If the number is less than 2, it is not prime.</li>
+            <li>Initialize Loop: Loop from 2 to the square root of the number.</li>
+            <li>Check Divisibility: If the number is divisible by any number in the loop, it is not prime.</li>
+            <li>Determine Primality: If no divisors are found, the number is prime.</li>
+        </ul><br><br>
+        <center><img width="390px" height="400px" src="prime.png"></center>
+
+        <h3>Sum of Number till Single Digit</h3>
+        <ul>
+            <li>Initialize Sum: Set the initial sum to 0.</li>
+            <li>Extract Digits: Loop through each digit of the number, adding them to the sum.</li>
+            <li>Reduce Sum: If the sum is greater than 9, repeat the process on the sum.</li>
+            <li>Return Single Digit: When the sum is a single digit, print it.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="sumofnumsingle.png"></center>
+
+        <h3>Reverse the Number</h3>
+        <ul>
+            <li>Initialize Reverse: Set the reverse of the number to 0.</li>
+            <li>Extract Digits: Loop through each digit of the number.</li>
+            <li>Form Reverse: Multiply the reverse by 10 and add the extracted digit.</li>
+            <li>Print Reverse: After processing all digits, print the reversed number.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="reversenum.png"></center>
+
+        <h3>Hollow Square pattern</h3>
+        <ul>
+            <li>Initialize Dimensions: Set the dimensions for the square (n x n).</li>
+            <li>Loop Through Rows: Loop from 1 to n for the rows.</li>
+            <li>Loop Through Columns: For each row, loop from 1 to n for the columns.</li>
+            <li>Print Pattern: Print '*' for the borders (first and last row/column), and print ' ' (space) for the hollow part.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="hallow.png"></center>
+
+        <h3>Palindrome of a string</h3>
+        <ul>
+            <li>Convert Case: Convert the string to the same case (lowercase).</li>
+            <li>Initialize Pointers: Set two pointers, one at the start and one at the end of the string.</li>
+            <li>Compare Characters: Loop through the string, comparing characters at the two pointers.</li>
+            <li>Check Palindrome: If all characters match, the string is a palindrome; otherwise, it is not.</li>
+        </ul><br><br>
+        <center><img width="500px" height="450px" src="palinstring.png"></center>
+      </div>
+    </div>
+      <div class="fot">
+        <hr>
+        <h4><em>For any Queries Contact Us
+        <p>Email id:dhaaranishanmugam224@gmail.com<br>Contact number:9853346576</p></em></h4>
+    </div>
+</body>
+</html>
